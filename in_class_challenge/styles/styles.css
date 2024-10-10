@@ -60,6 +60,11 @@ p{
 
 h1{
     font-family: var(--heading-font);
+    cursor: pointer;
+}
+
+h1:hover{
+    color: black;
 }
 
 .quote{
