@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tart & Sweet Cherries</title>
+    <style>
+        body{
+            padding-top: 150px;
+        }
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          margin: 0 auto;
+          width: 720px;
+        }
+        .grid-item {
+          font-size: 80px;
+          font-weight: bolder;          
+          text-align: center;
+          height: 300px;
+          width: 360px;
+          padding-top: 60px;
+        }
+
+        .cherry{
+            background-image: url('images/w06_cherries.png');
+            background-size: 300px 350px;
+            background-repeat: no-repeat;
+        }
+
+        .gray{
+            background-color: lightgray;
+        }
+
+        em{
+            color: red;
+            font-family: monospace;
+            font-size: 40px;
+            display: block;
+            margin-top: 50px;
+        }
+        </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item cherry">Tart &</div>
+        <div class="grid-item gray">
+            Sweet
+            <br>
+            <em>Cherries</em>
+        </div>  
+      </div>
+</body>
+</html>
