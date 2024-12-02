@@ -405,6 +405,10 @@ main section img {
   padding-left: 20px;
 }
 
+article{
+  margin-left: 50px;
+}
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
