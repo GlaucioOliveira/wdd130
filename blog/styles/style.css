@@ -410,6 +410,15 @@ article{
 }
 
 @media screen and (max-width: 900px) {
+  article{
+    margin-left: 5px;
+  }
+
+  
+  .logo-container{
+    display: none;
+  }
+
   #hero, .home-grid {
       display: block;
       height: auto;
@@ -417,10 +426,26 @@ article{
   nav, footer {
       flex-direction: column;
   }
+
+  header{
+    grid-template-columns: none;
+  }
+
+  nav {
+    line-height: 1.5em;
+  }
+
   nav a {
       display: block;
-      padding: 15px;
+      padding: 0px;
+      min-width: 0px;
   }
+
+  nav a.selected{
+    border: 1px solid var(--nav-hover-background-color);
+  }
+
+  
   #hero {
       margin-top: 0;
   }
